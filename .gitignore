@@ -1,1 +1,45 @@
+# === Python bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Lambda empaquetado ===
+*.zip
+
+# === Entornos virtuales ===
+.env
+.venv/
+env/
+venv/
+
+# === Archivos temporales ===
+*.tmp
+*.temp
+temp/
+tmp/
+
+# === Logs y depuración ===
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === Archivos de pruebas ===
+tests/
+test_*.py
+*_test.py
+.pytest_cache/
+.coverage
+coverage.xml
+
+# === AWS ===
+.aws/
+aws-credentials.json
+
+# === Otros comunes de sistema operativo ===
+.DS_Store
+Thumbs.db
 
